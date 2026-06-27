@@ -1,0 +1,25 @@
+{
+  "name": "agent-hooks",
+  "version": "0.1.0",
+  "description": "Unified hook-based logger for Claude Code, Codex, and Gemini CLI agent actions",
+  "type": "module",
+  "bin": {
+    "agent-hooks": "./bin/agent-hooks.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0"
+  }
+}
